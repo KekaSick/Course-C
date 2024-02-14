@@ -14,8 +14,15 @@
 
 #include <iostream>
 
+void increment(int &value){
+    value++;
+}
+
 int main()
 {
-
+    int value;
+    std::cin >> value;
+    increment(value);
+    std::cout << value;
     return 0;
 }

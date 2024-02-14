@@ -13,9 +13,15 @@
 
 #include <iostream>
 
+int digiSum(int num){
+    if (num == 0) return 0; 
+    return (num % 10 + digiSum(num / 10)); 
+}
+
 int main()
 {
-    // Your code here
-
+    int num;
+    std::cin >> num;
+    std::cout << digiSum(num);
     return 0;
 }
