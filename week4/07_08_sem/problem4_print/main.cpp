@@ -13,9 +13,31 @@
 
 #include <iostream>
 
+void print(int num){
+    std::cout << "Int value: " << num << std::endl;
+}
+
+void print(double num){
+    std::cout << "Double value: " << num << std::endl;
+}
+
 int main()
 {
-    // Your code here
+    int iNum;
+    double dNum;
+
+    std::cout << "Enter integer value" << std::endl;
+    std::cin >> iNum;
+    std::cout << std::endl;
+
+    std::cout << "Enter double value" << std::endl;
+    std::cin >> dNum;
+    std::cout << std::endl;
+
+    std::cout << "Check this out" << std::endl;
+
+    print(iNum);
+    print(dNum);
 
     return 0;
 }
