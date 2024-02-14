@@ -13,9 +13,17 @@
 
 #include <iostream>
 
+
+void callbackF(){
+    std::cout << "Che eto";
+}
+
+void executeCallback(void(*callback)()){
+    callback();
+}
+
 int main()
 {
-    // Your code here
-
+    executeCallback(callbackF);
     return 0;
 }
