@@ -1,0 +1,10 @@
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build/CMakeFiles/problem1_circleArea.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build/CMakeFiles/problem2_increment.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build/CMakeFiles/problem3_recursive.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build/CMakeFiles/problem4_print.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build/CMakeFiles/problem5_transformArray.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build/CMakeFiles/problem6_executeCallback.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build/CMakeFiles/problem7_sum.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build/CMakeFiles/problem8_filter.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build/CMakeFiles/edit_cache.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,123 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "07_08_sem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6,
+						7
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "problem1_circleArea::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem1_circleArea-Debug-5ac3c1ebf96c40816f1f.json",
+					"name" : "problem1_circleArea",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem2_increment::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem2_increment-Debug-eab015c99ff68985b3d3.json",
+					"name" : "problem2_increment",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem3_recursive::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem3_recursive-Debug-9a40b5cc1d8f36f8e449.json",
+					"name" : "problem3_recursive",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem4_print::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem4_print-Debug-7a5e2b50beed9261a69a.json",
+					"name" : "problem4_print",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem5_transformArray::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem5_transformArray-Debug-78c98325451581782526.json",
+					"name" : "problem5_transformArray",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem6_executeCallback::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem6_executeCallback-Debug-086b63afac0c23c1e991.json",
+					"name" : "problem6_executeCallback",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem7_sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem7_sum-Debug-8ad16fdada710fbf228d.json",
+					"name" : "problem7_sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem8_filter::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem8_filter-Debug-7e29d09838f8e1454286.json",
+					"name" : "problem8_filter",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/build",
+		"source" : "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week4/07_08_sem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
