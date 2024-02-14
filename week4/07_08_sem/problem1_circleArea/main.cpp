@@ -14,7 +14,15 @@
 #include <iostream>
 #include <cmath>
 
+double circleArea(double radius){
+    double cArea;
+    cArea = M_PI * pow(radius,2);
+    return cArea;
+}
+
 int main() {
-    std::cout << "Hello world";
+    double r;
+    std::cin >> r;
+    std::cout << circleArea(r);
     return 0;
 };
