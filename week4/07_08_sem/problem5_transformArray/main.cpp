@@ -13,9 +13,25 @@
 
 #include <iostream>
 
+int transform(int x)  {
+    return x + 1;
+}
+
+void transformArray(int* arr, int size, int(*transform)(int)){
+    for(int i = 0; i < 5; i++){
+        arr[i] = transform(arr[i]);
+    }
+}
+
 int main()
 {
-    // Your code here
+    int arr[5] = {1,2,3,4,5};
+
+    transformArray(arr, 5, transform);
+
+    for(int i = 0; i < 5; i++){
+        std::cout << arr[i] << ' ';
+    }
 
     return 0;
 }
