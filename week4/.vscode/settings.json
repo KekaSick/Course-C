@@ -80,7 +80,8 @@
         "memory_resource": "cpp",
         "stop_token": "cpp",
         "thread": "cpp",
-        "cinttypes": "cpp"
+        "cinttypes": "cpp",
+        "__verbose_abort": "cpp"
     },
     "cmake.sourceDirectory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week4/07_08_sem"
 }

@@ -12,10 +12,27 @@
 ///////////////////////////////////////////////////////////////////////////////
 
 #include <iostream>
+#include <cstdarg>
 
-int main()
-{
-    // Your code here
+int sum(int count, ...) {
+    int totalSum = 0;
+    va_list args;
+
+    va_start(args, count);
+    for (int i = 0; i < count; ++i) {
+        totalSum += va_arg(args, int);
+    }
+    va_end(args);
+
+    return totalSum;
+}
+
+int main() {
+
+    std::cout << sum(3, 1, 2, 3) << std::endl;
+    std::cout << sum(5, 5, 10, 15, 20, 25) << std::endl;
+    // i don't know why it is working this way
+
 
     return 0;
 }
