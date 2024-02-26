@@ -1,0 +1,78 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "11_12_sem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "problem1_car::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem1_car-Debug-5a627d7bd00648914265.json",
+					"name" : "problem1_car",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem2_time::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem2_time-Debug-b83fb75d7dffcc26ce57.json",
+					"name" : "problem2_time",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem3_flight::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem3_flight-Debug-487c30499c5b6c17a7f6.json",
+					"name" : "problem3_flight",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/13-14_sem/build",
+		"source" : "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/13-14_sem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
