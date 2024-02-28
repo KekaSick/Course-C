@@ -1,0 +1,44 @@
+[
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/ex1.dir/ex1/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/ex1/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/ex1/main.cpp",
+  "output": "CMakeFiles/ex1.dir/ex1/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/ex2.dir/ex2/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/ex2/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/ex2/main.cpp",
+  "output": "CMakeFiles/ex2.dir/ex2/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/ex3.dir/ex3/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/ex3/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/ex3/main.cpp",
+  "output": "CMakeFiles/ex3.dir/ex3/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/task01.dir/task01/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task01/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task01/main.cpp",
+  "output": "CMakeFiles/task01.dir/task01/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/task02.dir/task02/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task02/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task02/main.cpp",
+  "output": "CMakeFiles/task02.dir/task02/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/task03.dir/task03/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task03/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task03/main.cpp",
+  "output": "CMakeFiles/task03.dir/task03/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/task04.dir/task04/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task04/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task04/main.cpp",
+  "output": "CMakeFiles/task04.dir/task04/main.cpp.o"
+}
+]

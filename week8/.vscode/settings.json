@@ -84,5 +84,6 @@
         "stop_token": "cpp",
         "thread": "cpp",
         "cinttypes": "cpp"
-    }
+    },
+    "cmake.sourceDirectory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem"
 }

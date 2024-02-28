@@ -1,0 +1,114 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "11_12_sem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4,
+						5,
+						6
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "ex1::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex1-Debug-2ed41b78f0f9bfa68172.json",
+					"name" : "ex1",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex2::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex2-Debug-c3707e20ab3720f0f251.json",
+					"name" : "ex2",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "ex3::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-ex3-Debug-894d6fe7e7dbb3b7557a.json",
+					"name" : "ex3",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task01::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task01-Debug-9e782dbd636c3a9585ba.json",
+					"name" : "task01",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task02::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task02-Debug-c754d8878fe881ed1260.json",
+					"name" : "task02",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task03::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task03-Debug-05e047045a4b1b153962.json",
+					"name" : "task03",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "task04::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-task04-Debug-a64a83745de1ab835688.json",
+					"name" : "task04",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/build",
+		"source" : "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
