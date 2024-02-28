@@ -1,0 +1,13 @@
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem1_sum.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem2_copy.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem3_statictics.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem4_replace.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem5_reverse.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem6_line.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem7_blank.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem8_append.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem9_byte.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem10_change.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/problem11_cipher.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/edit_cache.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/build/CMakeFiles/rebuild_cache.dir

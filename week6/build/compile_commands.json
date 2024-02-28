@@ -1,0 +1,8 @@
+[
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem1_sum.dir/problem1_sum/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem1_sum/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem1_sum/main.cpp",
+  "output": "CMakeFiles/problem1_sum.dir/problem1_sum/main.cpp.o"
+}
+]

@@ -11,10 +11,21 @@
 
 #include <iostream>
 #include <cmath>
+#include <fstream>
 
-int sumIntegersInFile(const std::string& inputFilePath, const std::string& outputFilePath);
+int sumIntegersInFile(const std::string& inputFilePath, const std::string& outputFilePath){
+    std::ifstream file(inputFilePath);
+    std::ofstream outputfile(outputFilePath);
+    char n;
+    int c = 0;
+    while(file.get(n)){
+        if (std::isdigit(n)) c += n - '0';
+    }
+    outputfile << c;
+    return c;
+}
 
 int main() {
-    sumIntegersInFile("input.txt", "output.txt");
+    std::cout << sumIntegersInFile("/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem1_sum/input.txt", "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem1_sum/output.txt");
     return 0;
 }
