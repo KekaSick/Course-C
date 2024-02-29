@@ -1,0 +1,20 @@
+[
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem1_car.dir/problem1_car/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/13-14_sem/problem1_car/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/13-14_sem/problem1_car/main.cpp",
+  "output": "CMakeFiles/problem1_car.dir/problem1_car/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem2_time.dir/problem2_time/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/13-14_sem/problem2_time/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/13-14_sem/problem2_time/main.cpp",
+  "output": "CMakeFiles/problem2_time.dir/problem2_time/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem3_flight.dir/problem3_flight/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/13-14_sem/problem3_flight/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week7/13-14_sem/problem3_flight/main.cpp",
+  "output": "CMakeFiles/problem3_flight.dir/problem3_flight/main.cpp.o"
+}
+]
