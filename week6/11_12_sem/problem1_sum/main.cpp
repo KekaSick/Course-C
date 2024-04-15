@@ -19,12 +19,24 @@
 int sumIntegersInFile(const std::string& inputFilePath, const std::string& outputFilePath) {
     std::ifstream file(inputFilePath);
     std::ofstream outputfile(outputFilePath);
-    
+
+    int buff;
+    int sum = 0;
+
+    while (file >> buff){
+        sum+=buff;
+    }
+
+    outputfile << sum;
+    file.close();
+    outputfile.close();
+
+    return 0;
 }
 
 int main() {
-    std::string input = "11_12_sem/problem1_sum/input.txt";
-    std::string output = "11_12_sem/problem1_sum/output.txt";
+    std::string input = "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem1_sum/input.txt";
+    std::string output = "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem1_sum/output.txt";
     sumIntegersInFile(input, output);
     return 0;
 }

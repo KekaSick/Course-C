@@ -3,7 +3,7 @@
 #include <vector>
 // STL
 int main() {
-  std::vector<int> vec;
+  std::vector<int> vec={2,3,4,5,6,2,3,3};
   vec.push_back(10); // O(1)
   vec.push_back(20);
   vec.push_back(30);

@@ -64,6 +64,10 @@ CMAKE_BINARY_DIR = "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/bui
 
 # The main recursive "all" target.
 all: CMakeFiles/problem1_sum.dir/all
+all: CMakeFiles/problem2_csv.dir/all
+all: CMakeFiles/problem3_matrix.dir/all
+all: CMakeFiles/problem4_snake.dir/all
+all: CMakeFiles/problem5_workers.dir/all
 .PHONY : all
 
 # The main recursive "preinstall" target.
@@ -72,6 +76,10 @@ preinstall:
 
 # The main recursive "clean" target.
 clean: CMakeFiles/problem1_sum.dir/clean
+clean: CMakeFiles/problem2_csv.dir/clean
+clean: CMakeFiles/problem3_matrix.dir/clean
+clean: CMakeFiles/problem4_snake.dir/clean
+clean: CMakeFiles/problem5_workers.dir/clean
 .PHONY : clean
 
 #=============================================================================
@@ -99,6 +107,110 @@ problem1_sum: CMakeFiles/problem1_sum.dir/rule
 CMakeFiles/problem1_sum.dir/clean:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1_sum.dir/build.make CMakeFiles/problem1_sum.dir/clean
 .PHONY : CMakeFiles/problem1_sum.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem2_csv.dir
+
+# All Build rule for target.
+CMakeFiles/problem2_csv.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2_csv.dir/build.make CMakeFiles/problem2_csv.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2_csv.dir/build.make CMakeFiles/problem2_csv.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" --progress-num=3,4 "Built target problem2_csv"
+.PHONY : CMakeFiles/problem2_csv.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/problem2_csv.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/problem2_csv.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" 0
+.PHONY : CMakeFiles/problem2_csv.dir/rule
+
+# Convenience name for target.
+problem2_csv: CMakeFiles/problem2_csv.dir/rule
+.PHONY : problem2_csv
+
+# clean rule for target.
+CMakeFiles/problem2_csv.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2_csv.dir/build.make CMakeFiles/problem2_csv.dir/clean
+.PHONY : CMakeFiles/problem2_csv.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem3_matrix.dir
+
+# All Build rule for target.
+CMakeFiles/problem3_matrix.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem3_matrix.dir/build.make CMakeFiles/problem3_matrix.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem3_matrix.dir/build.make CMakeFiles/problem3_matrix.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" --progress-num=5,6 "Built target problem3_matrix"
+.PHONY : CMakeFiles/problem3_matrix.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/problem3_matrix.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/problem3_matrix.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" 0
+.PHONY : CMakeFiles/problem3_matrix.dir/rule
+
+# Convenience name for target.
+problem3_matrix: CMakeFiles/problem3_matrix.dir/rule
+.PHONY : problem3_matrix
+
+# clean rule for target.
+CMakeFiles/problem3_matrix.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem3_matrix.dir/build.make CMakeFiles/problem3_matrix.dir/clean
+.PHONY : CMakeFiles/problem3_matrix.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem4_snake.dir
+
+# All Build rule for target.
+CMakeFiles/problem4_snake.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem4_snake.dir/build.make CMakeFiles/problem4_snake.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem4_snake.dir/build.make CMakeFiles/problem4_snake.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" --progress-num=7,8 "Built target problem4_snake"
+.PHONY : CMakeFiles/problem4_snake.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/problem4_snake.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/problem4_snake.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" 0
+.PHONY : CMakeFiles/problem4_snake.dir/rule
+
+# Convenience name for target.
+problem4_snake: CMakeFiles/problem4_snake.dir/rule
+.PHONY : problem4_snake
+
+# clean rule for target.
+CMakeFiles/problem4_snake.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem4_snake.dir/build.make CMakeFiles/problem4_snake.dir/clean
+.PHONY : CMakeFiles/problem4_snake.dir/clean
+
+#=============================================================================
+# Target rules for target CMakeFiles/problem5_workers.dir
+
+# All Build rule for target.
+CMakeFiles/problem5_workers.dir/all:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem5_workers.dir/build.make CMakeFiles/problem5_workers.dir/depend
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem5_workers.dir/build.make CMakeFiles/problem5_workers.dir/build
+	@$(CMAKE_COMMAND) -E cmake_echo_color "--switch=$(COLOR)" --progress-dir="/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" --progress-num=9,10 "Built target problem5_workers"
+.PHONY : CMakeFiles/problem5_workers.dir/all
+
+# Build rule for subdir invocation for target.
+CMakeFiles/problem5_workers.dir/rule: cmake_check_build_system
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" 2
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 CMakeFiles/problem5_workers.dir/all
+	$(CMAKE_COMMAND) -E cmake_progress_start "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build/CMakeFiles" 0
+.PHONY : CMakeFiles/problem5_workers.dir/rule
+
+# Convenience name for target.
+problem5_workers: CMakeFiles/problem5_workers.dir/rule
+.PHONY : problem5_workers
+
+# clean rule for target.
+CMakeFiles/problem5_workers.dir/clean:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem5_workers.dir/build.make CMakeFiles/problem5_workers.dir/clean
+.PHONY : CMakeFiles/problem5_workers.dir/clean
 
 #=============================================================================
 # Special targets to cleanup operation of make.

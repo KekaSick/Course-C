@@ -60,7 +60,7 @@ int main() {
   std::vector<int> v = {1, 2, 3, 4, 5, 5, 6};
   std::vector<int> sub = {3, 4};
   std::vector<int> candidates = {4, 5, 6};
-
+  
   // std::find
   auto it_find = std::find(v.begin(), v.end(), 3);
   if (it_find != v.end()) {

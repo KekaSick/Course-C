@@ -129,6 +129,58 @@ problem1_sum/fast:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1_sum.dir/build.make CMakeFiles/problem1_sum.dir/build
 .PHONY : problem1_sum/fast
 
+#=============================================================================
+# Target rules for targets named problem2_csv
+
+# Build rule for target.
+problem2_csv: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 problem2_csv
+.PHONY : problem2_csv
+
+# fast build rule for target.
+problem2_csv/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2_csv.dir/build.make CMakeFiles/problem2_csv.dir/build
+.PHONY : problem2_csv/fast
+
+#=============================================================================
+# Target rules for targets named problem3_matrix
+
+# Build rule for target.
+problem3_matrix: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 problem3_matrix
+.PHONY : problem3_matrix
+
+# fast build rule for target.
+problem3_matrix/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem3_matrix.dir/build.make CMakeFiles/problem3_matrix.dir/build
+.PHONY : problem3_matrix/fast
+
+#=============================================================================
+# Target rules for targets named problem4_snake
+
+# Build rule for target.
+problem4_snake: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 problem4_snake
+.PHONY : problem4_snake
+
+# fast build rule for target.
+problem4_snake/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem4_snake.dir/build.make CMakeFiles/problem4_snake.dir/build
+.PHONY : problem4_snake/fast
+
+#=============================================================================
+# Target rules for targets named problem5_workers
+
+# Build rule for target.
+problem5_workers: cmake_check_build_system
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/Makefile2 problem5_workers
+.PHONY : problem5_workers
+
+# fast build rule for target.
+problem5_workers/fast:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem5_workers.dir/build.make CMakeFiles/problem5_workers.dir/build
+.PHONY : problem5_workers/fast
+
 problem1_sum/main.o: problem1_sum/main.cpp.o
 .PHONY : problem1_sum/main.o
 
@@ -153,6 +205,102 @@ problem1_sum/main.cpp.s:
 	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem1_sum.dir/build.make CMakeFiles/problem1_sum.dir/problem1_sum/main.cpp.s
 .PHONY : problem1_sum/main.cpp.s
 
+problem2_csv/main.o: problem2_csv/main.cpp.o
+.PHONY : problem2_csv/main.o
+
+# target to build an object file
+problem2_csv/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2_csv.dir/build.make CMakeFiles/problem2_csv.dir/problem2_csv/main.cpp.o
+.PHONY : problem2_csv/main.cpp.o
+
+problem2_csv/main.i: problem2_csv/main.cpp.i
+.PHONY : problem2_csv/main.i
+
+# target to preprocess a source file
+problem2_csv/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2_csv.dir/build.make CMakeFiles/problem2_csv.dir/problem2_csv/main.cpp.i
+.PHONY : problem2_csv/main.cpp.i
+
+problem2_csv/main.s: problem2_csv/main.cpp.s
+.PHONY : problem2_csv/main.s
+
+# target to generate assembly for a file
+problem2_csv/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem2_csv.dir/build.make CMakeFiles/problem2_csv.dir/problem2_csv/main.cpp.s
+.PHONY : problem2_csv/main.cpp.s
+
+problem3_matrix/main.o: problem3_matrix/main.cpp.o
+.PHONY : problem3_matrix/main.o
+
+# target to build an object file
+problem3_matrix/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem3_matrix.dir/build.make CMakeFiles/problem3_matrix.dir/problem3_matrix/main.cpp.o
+.PHONY : problem3_matrix/main.cpp.o
+
+problem3_matrix/main.i: problem3_matrix/main.cpp.i
+.PHONY : problem3_matrix/main.i
+
+# target to preprocess a source file
+problem3_matrix/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem3_matrix.dir/build.make CMakeFiles/problem3_matrix.dir/problem3_matrix/main.cpp.i
+.PHONY : problem3_matrix/main.cpp.i
+
+problem3_matrix/main.s: problem3_matrix/main.cpp.s
+.PHONY : problem3_matrix/main.s
+
+# target to generate assembly for a file
+problem3_matrix/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem3_matrix.dir/build.make CMakeFiles/problem3_matrix.dir/problem3_matrix/main.cpp.s
+.PHONY : problem3_matrix/main.cpp.s
+
+problem4_snake/main.o: problem4_snake/main.cpp.o
+.PHONY : problem4_snake/main.o
+
+# target to build an object file
+problem4_snake/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem4_snake.dir/build.make CMakeFiles/problem4_snake.dir/problem4_snake/main.cpp.o
+.PHONY : problem4_snake/main.cpp.o
+
+problem4_snake/main.i: problem4_snake/main.cpp.i
+.PHONY : problem4_snake/main.i
+
+# target to preprocess a source file
+problem4_snake/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem4_snake.dir/build.make CMakeFiles/problem4_snake.dir/problem4_snake/main.cpp.i
+.PHONY : problem4_snake/main.cpp.i
+
+problem4_snake/main.s: problem4_snake/main.cpp.s
+.PHONY : problem4_snake/main.s
+
+# target to generate assembly for a file
+problem4_snake/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem4_snake.dir/build.make CMakeFiles/problem4_snake.dir/problem4_snake/main.cpp.s
+.PHONY : problem4_snake/main.cpp.s
+
+problem5_workers/main.o: problem5_workers/main.cpp.o
+.PHONY : problem5_workers/main.o
+
+# target to build an object file
+problem5_workers/main.cpp.o:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem5_workers.dir/build.make CMakeFiles/problem5_workers.dir/problem5_workers/main.cpp.o
+.PHONY : problem5_workers/main.cpp.o
+
+problem5_workers/main.i: problem5_workers/main.cpp.i
+.PHONY : problem5_workers/main.i
+
+# target to preprocess a source file
+problem5_workers/main.cpp.i:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem5_workers.dir/build.make CMakeFiles/problem5_workers.dir/problem5_workers/main.cpp.i
+.PHONY : problem5_workers/main.cpp.i
+
+problem5_workers/main.s: problem5_workers/main.cpp.s
+.PHONY : problem5_workers/main.s
+
+# target to generate assembly for a file
+problem5_workers/main.cpp.s:
+	$(MAKE) $(MAKESILENT) -f CMakeFiles/problem5_workers.dir/build.make CMakeFiles/problem5_workers.dir/problem5_workers/main.cpp.s
+.PHONY : problem5_workers/main.cpp.s
+
 # Help Target
 help:
 	@echo "The following are some of the valid targets for this Makefile:"
@@ -162,9 +310,25 @@ help:
 	@echo "... edit_cache"
 	@echo "... rebuild_cache"
 	@echo "... problem1_sum"
+	@echo "... problem2_csv"
+	@echo "... problem3_matrix"
+	@echo "... problem4_snake"
+	@echo "... problem5_workers"
 	@echo "... problem1_sum/main.o"
 	@echo "... problem1_sum/main.i"
 	@echo "... problem1_sum/main.s"
+	@echo "... problem2_csv/main.o"
+	@echo "... problem2_csv/main.i"
+	@echo "... problem2_csv/main.s"
+	@echo "... problem3_matrix/main.o"
+	@echo "... problem3_matrix/main.i"
+	@echo "... problem3_matrix/main.s"
+	@echo "... problem4_snake/main.o"
+	@echo "... problem4_snake/main.i"
+	@echo "... problem4_snake/main.s"
+	@echo "... problem5_workers/main.o"
+	@echo "... problem5_workers/main.i"
+	@echo "... problem5_workers/main.s"
 .PHONY : help
 
 

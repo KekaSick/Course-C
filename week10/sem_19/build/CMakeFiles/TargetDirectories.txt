@@ -1,0 +1,3 @@
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week10/sem_19/build/CMakeFiles/problem1_vector3d.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week10/sem_19/build/CMakeFiles/edit_cache.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week10/sem_19/build/CMakeFiles/rebuild_cache.dir

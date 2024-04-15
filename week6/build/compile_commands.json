@@ -4,5 +4,29 @@
   "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem1_sum.dir/problem1_sum/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem1_sum/main.cpp\"",
   "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem1_sum/main.cpp",
   "output": "CMakeFiles/problem1_sum.dir/problem1_sum/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem2_csv.dir/problem2_csv/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem2_csv/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem2_csv/main.cpp",
+  "output": "CMakeFiles/problem2_csv.dir/problem2_csv/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem3_matrix.dir/problem3_matrix/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem3_matrix/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem3_matrix/main.cpp",
+  "output": "CMakeFiles/problem3_matrix.dir/problem3_matrix/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem4_snake.dir/problem4_snake/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem4_snake/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem4_snake/main.cpp",
+  "output": "CMakeFiles/problem4_snake.dir/problem4_snake/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem5_workers.dir/problem5_workers/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem5_workers/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem/problem5_workers/main.cpp",
+  "output": "CMakeFiles/problem5_workers.dir/problem5_workers/main.cpp.o"
 }
 ]

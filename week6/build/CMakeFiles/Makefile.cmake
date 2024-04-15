@@ -48,4 +48,8 @@ set(CMAKE_MAKEFILE_PRODUCTS
 # Dependency information for all targets:
 set(CMAKE_DEPEND_INFO_FILES
   "CMakeFiles/problem1_sum.dir/DependInfo.cmake"
+  "CMakeFiles/problem2_csv.dir/DependInfo.cmake"
+  "CMakeFiles/problem3_matrix.dir/DependInfo.cmake"
+  "CMakeFiles/problem4_snake.dir/DependInfo.cmake"
+  "CMakeFiles/problem5_workers.dir/DependInfo.cmake"
   )

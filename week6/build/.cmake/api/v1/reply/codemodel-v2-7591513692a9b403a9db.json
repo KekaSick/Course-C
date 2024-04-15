@@ -1,0 +1,96 @@
+{
+	"configurations" : 
+	[
+		{
+			"directories" : 
+			[
+				{
+					"build" : ".",
+					"jsonFile" : "directory-.-Debug-f5ebdc15457944623624.json",
+					"minimumCMakeVersion" : 
+					{
+						"string" : "3.0"
+					},
+					"projectIndex" : 0,
+					"source" : ".",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"name" : "Debug",
+			"projects" : 
+			[
+				{
+					"directoryIndexes" : 
+					[
+						0
+					],
+					"name" : "11_12_sem",
+					"targetIndexes" : 
+					[
+						0,
+						1,
+						2,
+						3,
+						4
+					]
+				}
+			],
+			"targets" : 
+			[
+				{
+					"directoryIndex" : 0,
+					"id" : "problem1_sum::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem1_sum-Debug-b12430e5a334ba0695a7.json",
+					"name" : "problem1_sum",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem2_csv::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem2_csv-Debug-f4e33d7a7093ab20549a.json",
+					"name" : "problem2_csv",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem3_matrix::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem3_matrix-Debug-6c5aa6a0736e6fe6b7bd.json",
+					"name" : "problem3_matrix",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem4_snake::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem4_snake-Debug-30db6fad3822a2ee7b77.json",
+					"name" : "problem4_snake",
+					"projectIndex" : 0
+				},
+				{
+					"directoryIndex" : 0,
+					"id" : "problem5_workers::@6890427a1f51a3e7e1df",
+					"jsonFile" : "target-problem5_workers-Debug-c08c6d1915d53b5e7f2b.json",
+					"name" : "problem5_workers",
+					"projectIndex" : 0
+				}
+			]
+		}
+	],
+	"kind" : "codemodel",
+	"paths" : 
+	{
+		"build" : "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/build",
+		"source" : "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week6/11_12_sem"
+	},
+	"version" : 
+	{
+		"major" : 2,
+		"minor" : 6
+	}
+}
