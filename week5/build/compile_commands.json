@@ -1,0 +1,68 @@
+[
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem1_sum.dir/problem1_sum/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem1_sum/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem1_sum/main.cpp",
+  "output": "CMakeFiles/problem1_sum.dir/problem1_sum/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem2_copy.dir/problem2_copy/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem2_copy/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem2_copy/main.cpp",
+  "output": "CMakeFiles/problem2_copy.dir/problem2_copy/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem3_statictics.dir/problem3_statictics/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem3_statictics/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem3_statictics/main.cpp",
+  "output": "CMakeFiles/problem3_statictics.dir/problem3_statictics/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem4_replace.dir/problem4_replace/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem4_replace/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem4_replace/main.cpp",
+  "output": "CMakeFiles/problem4_replace.dir/problem4_replace/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem5_reverse.dir/problem5_reverse/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem5_reverse/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem5_reverse/main.cpp",
+  "output": "CMakeFiles/problem5_reverse.dir/problem5_reverse/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem6_line.dir/problem6_line/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem6_line/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem6_line/main.cpp",
+  "output": "CMakeFiles/problem6_line.dir/problem6_line/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem7_blank.dir/problem7_blank/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem7_blank/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem7_blank/main.cpp",
+  "output": "CMakeFiles/problem7_blank.dir/problem7_blank/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem8_append.dir/problem8_append/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem8_append/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem8_append/main.cpp",
+  "output": "CMakeFiles/problem8_append.dir/problem8_append/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem9_byte.dir/problem9_byte/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem9_byte/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem9_byte/main.cpp",
+  "output": "CMakeFiles/problem9_byte.dir/problem9_byte/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem10_change.dir/problem10_change/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem10_change/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem10_change/main.cpp",
+  "output": "CMakeFiles/problem10_change.dir/problem10_change/main.cpp.o"
+},
+{
+  "directory": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/build",
+  "command": "/usr/bin/clang++   -g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk -o CMakeFiles/problem11_cipher.dir/problem11_cipher/main.cpp.o -c \"/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem11_cipher/main.cpp\"",
+  "file": "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem11_cipher/main.cpp",
+  "output": "CMakeFiles/problem11_cipher.dir/problem11_cipher/main.cpp.o"
+}
+]
