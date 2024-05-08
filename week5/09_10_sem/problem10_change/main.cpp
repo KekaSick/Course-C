@@ -12,9 +12,25 @@
 #include <iostream>
 #include <cctype> // For toupper()
 
-void convertToLowercase(const std::string& inputFilePath, const std::string& outputFilePath);
+void convertToLowercase(const std::string& inputFilePath, const std::string& outputFilePath)
+{
+    std::ifstream file(inputFilePath);
+    std::ofstream output(outputFilePath);
+    std::string line;
+    std::string up;
+
+    while (std::getline(file, line))
+    {
+        for (auto & it : line)
+        {
+            up = toupper(it);
+            output << up;
+        }
+            output << '\n';
+    }
+};
 
 int main() {
-    convertToLowercase("input.txt", "output_uppercase.txt");
+    convertToLowercase("/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem10_change/input.txt", "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem10_change/output_uppercase.txt");
     return 0;
 }

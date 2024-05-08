@@ -21,9 +21,36 @@ char caesarCipher(char ch, int shift) {
     return ch;
 }
 
-void encryptFileContent(const std::string& inputFilePath, const std::string& outputFilePath, int shift = 3);
+void encryptFileContent(const std::string& inputFilePath, const std::string& outputFilePath, int shift = 3)
+{
+    std::ifstream file(inputFilePath);
+    std::ofstream output(outputFilePath);
+
+    std::string line;
+    std::string word;
+    std::vector<std::string> v;
+    int buff = 0;
+
+    while (std::getline(file, line))
+    {
+        if (!line.empty()) 
+        {
+            for (char c : line) 
+            {
+                if (c != ' ') output << caesarCipher(c,shift);
+                else output << ' ';
+            }
+        }
+        output<< '\n' ;
+    }
+};
 
 int main() {
-    encryptFileContent("input.txt", "encrypted.txt");
+    std::cout << caesarCipher('H',3);
+    std::cout << caesarCipher('e',3);
+    std::cout << caesarCipher('l',3);
+    std::cout << caesarCipher('l',3);
+    std::cout << caesarCipher('o',3);
+    encryptFileContent("/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem11_cipher/input.txt", "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem11_cipher/encrypted.txt");
     return 0;
 }

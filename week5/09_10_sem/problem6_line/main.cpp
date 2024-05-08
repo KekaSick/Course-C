@@ -12,9 +12,23 @@
 #include <iostream>
 #include <string>
 
-void extractLineToFile(const std::string& inputFilePath, const std::string& outputFilePath, int lineNum);
+void extractLineToFile(const std::string& inputFilePath, const std::string& outputFilePath, int lineNum)
+{
+    std::ifstream file(inputFilePath);
+    std::ofstream output(outputFilePath);
+
+    std::string line;
+    std::vector<std::string> v;
+    int c = 0;
+
+    while (std::getline(file, line))
+    {   
+        c++;
+        if (c == lineNum) output << line;
+    }
+};
 int main() {
-    extractLineToFile("input.txt", "specific_line.txt", 3);
+    extractLineToFile("/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem6_line/input.txt", "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem6_line/specific_line.txt", 3);
     return 0;
 }
 

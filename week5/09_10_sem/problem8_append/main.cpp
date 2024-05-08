@@ -12,9 +12,13 @@
 #include <iostream>
 #include <string>
 
-void appendToFile(const std::string& filePath, const std::string& content);
+void appendToFile(const std::string& filePath, const std::string& content)
+{
+    std::ofstream output(filePath, std::ios_base::app);
+    output << content;
+};
 
 int main() {
-    appendToFile("existing_file.txt", "Appended content.\n");
+    appendToFile("/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week5/09_10_sem/problem8_append/input.txt", "Appended content.\n");
     return 0;
 }
