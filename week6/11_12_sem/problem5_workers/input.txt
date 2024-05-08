@@ -1,0 +1,4 @@
+Pedro, mewing, 1000
+bob, painting, 3000
+kate, stoopid, 2312
+martin, gay, 10
