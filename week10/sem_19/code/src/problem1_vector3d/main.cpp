@@ -133,11 +133,26 @@ void fillMultiset(size_t n, std::multiset<Vector3D>& mset)
     
     
     // loop, add a new element to the multiset n times
-    
-    double newRandomNumber = distr(gen);
+    for (int i = 0; i < n; i++) {
+        double x = distr(gen), y = distr(gen), z = distr(gen);
+        Vector3D v(x, y, z);
+        mset.insert(v);
+    }
     
 }
 
+void printMultiSet(std::multiset<Vector3D>& mset)
+{
+    for (auto it : mset) std::cout << it;
+    std::cout << '\n';
+}
+
+double calcAverageMagnitude(std::multiset<Vector3D>& mset)
+{
+    double c = 0;
+    for (auto it: mset) c += it.magnitude();
+    return c / mset.size();
+}
 
 int main()
 {
@@ -146,15 +161,14 @@ int main()
     // Part 1. Fill a multiset of Vector3D objects with random vectors.
     std::multiset<Vector3D> s;
     const size_t setSize = 100;
-    fillMultiset(100, s);
-    
+    fillMultiset(10, s);
     
     // Part 2. Print all elements of the multiset
-    // printMultiSet(s);
+    printMultiSet(s);
     
     // Part 3. Calculate and print the average of all magnitudes of vectors
-    // double averageMagnitude = calcAverageMagnitude(s);
-    // std::cout << "Average magnitude is " << averageMagnitude << std::endl;
+    double averageMagnitude = calcAverageMagnitude(s);
+    std::cout << "Average magnitude is " << averageMagnitude << std::endl;
     
     return 0;
 }
