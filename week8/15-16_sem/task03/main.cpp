@@ -1,5 +1,3 @@
-#include <iostream>
-
 /*
 You are tasked with creating a program to manage a database 
 of students' information. Each student record consists of the 
@@ -31,6 +29,7 @@ Saving the updated database to a file.
 #include <fstream>
 #include <vector>
 #include <string>
+#include <iterator>
 
 struct Student {
     std::string name;
@@ -48,18 +47,53 @@ struct Student {
     }
 };
 
+void readRecordsFromFile(const std::string& InputFile, std::vector<Student>& data)
+{
+    std::ifstream file(InputFile);
+    std::string dummy;
+    Student student;
+    file >> student;
+    while(std::getline(file, dummy))
+    {
+        data.push_back(student);
+        file >> student;
+    }
+}
 
+void addRecord(std::vector<Student>& data)
+{
+    Student student;
+    std::cout << "Please, enter name, age and grade space with a space:\n" ;
+    std::cin >> student;
+    data.push_back(student);
+}
+
+void deleteRecord(std::vector<Student>& data, int id)
+{
+    data.erase(std::next(data.begin(), id-1));
+}
+
+void displayRecords(std::vector<Student>& data)
+{
+    for (auto & it : data)std::cout << it << '\n';
+}
+
+void writeRecordsToFile(const std::string outputFile, std::vector<Student>& data)
+{
+    std::ofstream output(outputFile);
+    for (auto & it : data)output << it << '\n';
+}
 
 int main() {
     std::vector<Student> students;
 
-    readRecordsFromFile("students.txt", students);
+    readRecordsFromFile("/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task03/students.txt", students);
 
     addRecord(students);
     deleteRecord(students, 1);
     displayRecords(students);
 
-    writeRecordsToFile("updated_students.txt", students);
+    writeRecordsToFile("/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task03/updated_students.txt", students);
 
     return 0;
 }

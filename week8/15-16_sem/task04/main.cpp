@@ -3,6 +3,9 @@
 #include <map>
 #include <numeric>
 #include <vector>
+#include <fstream>
+#include <string>
+#include <sstream>
 
 /*
 Create a program that manages a dictionary of terms and 
@@ -31,39 +34,78 @@ Provide a user interface allowing users to interact with the dictionary (e.g., t
 Ensure error handling for file input/output operations and dictionary operations (e.g., handling invalid input, file not found, etc.).
 */
 
-#include <iostream>
-#include <fstream>
-#include <string>
-#include <map>
-
 // Function to load dictionary from a file
-void loadDictionary(const std::string& filename, std::map<std::string, std::string>& dictionary) {
-    
+void loadDictionary(const std::string& filename, std::map<std::string, std::string>& dictionary) 
+{
+    std::ifstream input(filename);
+    std::string str, key, value;
+
+    while (std::getline(input, str))
+    {
+        std::stringstream line(str);
+        line >> key >> value;
+        std::getline(line, value);
+        value.erase(value.begin());
+        dictionary.insert({key, value});
+    }
 }
 
 // Function to display definition of a term
-void lookupTerm(const std::string& term, const std::map<std::string, std::string>& dictionary) {
-    
+void lookupTerm(const std::string& term, const std::map<std::string, std::string>& dictionary) 
+{
+    for (auto & it : dictionary)
+    {
+        if (it.first == term)
+        {
+            std::cout << term << " - " << it.second << '\n';
+            return;
+        }
+    }
+    std::cout << "Error, there is no " << term << " in dictionary\n";
 }
 
 // Function to add a new term-definition pair to the dictionary
-void addTerm(std::map<std::string, std::string>& dictionary) {
+void addTerm(std::map<std::string, std::string>& dictionary) 
+{
+    std::string key, value;
+
+    std::cin.ignore(std::numeric_limits<std::streamsize>::max(), '\n');
     
+    std::cout << "Enter the term: ";
+    std::getline(std::cin, key);
+    std::cout << "Enter the definition: ";
+    std::getline(std::cin, value);
+
+    dictionary.insert({key, value});
+    std::cout << key << " was added\n";
 }
 
 // Function to delete a term from the dictionary
-void deleteTerm(const std::string& term, std::map<std::string, std::string>& dictionary) {
-    
+void deleteTerm(const std::string& term, std::map<std::string, std::string>& dictionary) 
+{
+    auto it = dictionary.find(term);
+    if (it != dictionary.end()) 
+    {
+        dictionary.erase(it);
+        std::cout << term << " deleted\n";
+    }
+    else std::cout << "Error, this term doesn't exist\n";
 }
 
 // Function to save dictionary to a file
-void saveDictionary(const std::string& filename, const std::map<std::string, std::string>& dictionary) {
-    
+void saveDictionary(const std::string& filename, const std::map<std::string, std::string>& dictionary) 
+{
+    std::ofstream output(filename);
+
+    for (auto & it : dictionary) output << it.first << " - " << it.second << '\n';
+
+    std::cout << "Dictionary saved";
 }
 
-int main() {
+int main() 
+{
     std::map<std::string, std::string> dictionary;
-    std::string filename = "dictionary.txt";
+    std::string filename = "/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week8/15-16_sem/task04/dictionary.txt";
     loadDictionary(filename, dictionary);
 
     int choice;
