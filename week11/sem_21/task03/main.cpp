@@ -27,65 +27,115 @@ using namespace std;
 //Administrator. Every class must provide a method
 // accessResources() demonstrating the user's access level.
 
-class User {
- protected:
+class User 
+{
+protected:
   string name;
 
- public:
+public:
   static int count;
-  User(string name) : name(name) { count++; }
+
+  User(string name) : name(name) 
+  { 
+    std::cout << "The user: " << name << " was created\n";
+    count++; 
+  }
+
   virtual void accessResources() const {
     cout << name << " has basic user access." << endl;
   }
-  virtual ~User() {}
+
+  ~User() 
+  {
+    std::cout << "The user: " << name << " was deleted\n";
+  }
 };
 int User::count = 0;
-class Employee : public User {
+
+class Employee : public User 
+{
  public:
-  Employee(string name) : User(name) { }
-  void accessResources() const {
+  Employee(string name) : User(name) 
+  {
+  std::cout << "The employee: " << name << " was created\n";
+  }
+
+  void accessResources() const 
+  {
     cout << name << " has basic employee access." << endl;
   }
-  virtual ~Employee() {}
+
+  ~Employee() 
+  {
+    std::cout << "The employee: " << name << " was deleted\n";
+  }
 };
 
-class Manager : public User{
+class Manager : public User
+{
  public:
-  Manager(string name) : User(name) { }
-  void accessResources() const {
+  Manager(string name) : User(name) 
+  {
+    std::cout << "The manager: " << name << " was created\n"; 
+  }
+
+  void accessResources() const 
+  {
     cout << name << " has basic manager access." << endl;
   }
-  virtual ~Manager() {}
+
+  ~Manager()
+  {
+    std::cout << "The manager: " << name << " was deleted\n"; 
+  }
 };
 
-class Administrator : public User{
+class Administrator : public User
+{
  public:
-  Administrator(string name) : User(name) { }
-  void accessResources() const {
+  Administrator(string name) : User(name) 
+  {
+    std::cout << "The administrator: " << name << " was created\n";
+  }
+
+  void accessResources() const 
+  {
     cout << name << " has basic administrator access." << endl;
   }
-  virtual ~Administrator() {}
+
+  ~Administrator() 
+  {
+    std::cout << "The administrator: " << name << " was deleted\n";
+  }
 };
 
-std::string generateName() {
+std::string generateName() 
+{
   size_t size = rand() % 7 + 3; // 3 до 9 букв
   std::string name = "";
-  for (int i = 0; i < size; ++i) {
+  for (int i = 0; i < size; ++i) 
+  {
     name += char(rand() % 26 + 'a');
   }
   return name;
 }
 
-int main() {
+int main() 
+{
   std::cout << User::count << '\n';
   std::vector<User*> v;
-  for (int i = 0; i < 10; ++i) {
+
+  for (int i = 0; i < 10; ++i) 
+  {
     int num = rand() % 3;
-    if (num == 0) {
+    if (num == 0)
+    {
       v.push_back(new Employee(generateName()));
-    } else if (num == 1) {
+    } else if (num == 1) 
+    {
       v.push_back(new Administrator(generateName()));
-    } else if (num == 2) {
+    } else if (num == 2) 
+    {
       v.push_back(new Manager(generateName()));
     }
     v[i]->accessResources();

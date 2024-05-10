@@ -1,0 +1,6 @@
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week11/build/CMakeFiles/ex1.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week11/build/CMakeFiles/task01.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week11/build/CMakeFiles/task02.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week11/build/CMakeFiles/task03.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week11/build/CMakeFiles/edit_cache.dir
+/Users/mverzhbitskiy/Documents/GitHub/Course-C(BP)/week11/build/CMakeFiles/rebuild_cache.dir

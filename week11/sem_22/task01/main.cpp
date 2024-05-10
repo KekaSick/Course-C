@@ -5,9 +5,13 @@
 #include <sstream>
 #include <string>
 
-class Logger {
+// No task bruh
+
+class Logger 
+{
  public:
-  enum class Level {
+  enum class Level 
+  {
     ERROR = 0,
     WARNING,
     INFO,
@@ -18,9 +22,11 @@ class Logger {
   std::ofstream logFile;
   Level currentLevel;
 
-  Logger(const std::string &filename, Level level = Level::INFO) : currentLevel(level) {
+  Logger(const std::string &filename, Level level = Level::INFO) : currentLevel(level) 
+  {
     logFile.open(filename, std::ios::app);
-    if (!logFile.is_open()) {
+    if (!logFile.is_open()) 
+    {
       std::cerr << "Ошибка открытия файла журнала!" << std::endl;
     }
   }
@@ -29,22 +35,28 @@ class Logger {
   Logger &operator=(const Logger &) = delete;
 
  public:
-  ~Logger() {
-    if (logFile.is_open()) {
+  ~Logger() 
+  {
+    if (logFile.is_open()) 
+    {
       logFile.close();
     }
   }
-  static Logger &getInstance(const std::string &filename = "logfile.txt") {
+  static Logger &getInstance(const std::string &filename = "logfile.txt") 
+  {
     static Logger instance(filename);
     return instance;
   }
 
-  void setLevel(Level level) {
+  void setLevel(Level level) 
+  {
     currentLevel = level;
   }
 
-  void log(const std::string &message, Level level = Level::INFO) {
-    if (level <= currentLevel) {
+  void log(const std::string &message, Level level = Level::INFO) 
+  {
+    if (level <= currentLevel) 
+    {
       auto now = std::chrono::system_clock::now();
       auto now_c = std::chrono::system_clock::to_time_t(now);
       logFile << std::put_time(std::localtime(&now_c), "%Y-%m-%d %X") << " [" << levelToString(level) << "] " << message << '\n';
@@ -53,7 +65,8 @@ class Logger {
   }
 
  private:
-  std::string levelToString(Level level) {
+  std::string levelToString(Level level) 
+  {
     switch (level) {
       case Level::DEBUG:
         return "DEBUG";
@@ -71,7 +84,8 @@ class Logger {
 
 auto &logger = Logger::getInstance();
 
-int sum(int a, int b) {
+int sum(int a, int b) 
+{
   logger.log("Зашли в метод sum.", Logger::Level::DEBUG);
   int res = a + b;
   logger.log("Суммируем числа " + std::to_string(a) + " "
@@ -80,7 +94,8 @@ int sum(int a, int b) {
   return a + b;
 }
 
-int main() {
+int main() 
+{
   logger.setLevel(Logger::Level::DEBUG);
   sum(10, 20);
   return 0;

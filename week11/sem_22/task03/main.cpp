@@ -5,6 +5,9 @@
 #include <sstream>
 #include <string>
 
+//No task bruh
+//Singletone eto Aleko
+
 class SingletonExample {
  public:
   static SingletonExample instance = SingletonExample::getInstance();
