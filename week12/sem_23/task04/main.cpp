@@ -29,8 +29,38 @@
 #include <string>
 #include <iostream>
 #include <exception>
-#include <string>
-int main() {
+
+int main() 
+{
+    int N;
+    std::unordered_map<std::string, std::string> dict;
+
+    std::cin >> N;
+
+    for (int i = 0; i < N; i++) 
+    {
+        std::string key, value;
+        std::cin >> key >> value;
+        dict[key] = value;
+        dict[key] = value;
+    }
+
+    int Q;
+    std::cin >> Q;
+
+    for (int i = 0; i < Q; i++) 
+    {
+        std::string word;
+        std::cin >> word;
+        if (dict.find(word) != dict.end()) 
+        {
+            std::cout << dict[word] << "\n";
+        } 
+        else 
+        {
+            std::cout << "No synonym found" << "\n";
+        }
+    }
 
     return 0;
 }

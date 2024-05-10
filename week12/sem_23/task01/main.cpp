@@ -21,7 +21,7 @@
 В функции main реализовать запрос на ввод возраста и дистанции
  от пользователя, вызов функции registerParticipant и обработку
  возможного исключения, выводящую сообщение об ошибке, если возраст
-  участника не попадает в допустимый диапазон.
+ участника не попадает в допустимый диапазон.
 Требования:
 Использовать механизм исключений C++ для обработки ошибок, 
 связанных с возрастными ограничениями.
@@ -43,21 +43,47 @@
 
 #include <iostream>
 #include <exception>
+#include <string>
 
+class AgeRestrictionException : public std::runtime_error 
+{
+ private:
+ public:
+  explicit AgeRestrictionException(const std::string& message) : std::runtime_error(message) {}
+};
 
+void registerParticipant(int age, const std::string& distance) 
+{
+  if (age < 18 or age > 60) 
+  {
+    throw AgeRestrictionException("Ваш возраст не соответствует требованиям для участия в марафоне.");
+  }
+  std::cout << "Регистрация успешно завершена!" << '\n';
+}
 
-int main() {
-  try {
-    registerParticipant(17);
-  } catch (AgeRestrictionException& e) {
-    std::cout << "Ошибка: " << e.what() << std::endl;
+int main() 
+{
+  int age;
+  std::string distance;
+  std::cout << "Введите ваш возраст: ";
+
+  if (!(std::cin >> age)) 
+  {
+    std::cout << "Ошибка: некорректный ввод." << '\n';
+    return 2;
   }
 
-  try {
-    registerParticipant(50);
-  } catch (AgeRestrictionException& e) {
-    std::cout << "Ошибка: " << e.what() << std::endl;
+  std::cout << "Выберите дистанцию (5km, 10km, 21km): ";
+  std::cin >> distance;
+
+  try
+  {
+    registerParticipant(age, distance);
+  } 
+  catch (const AgeRestrictionException& e) 
+  {
+    std::cout << "Ошибка: " << e.what() << '\n';
   }
 
-  return 0;
+    return 0;
 }

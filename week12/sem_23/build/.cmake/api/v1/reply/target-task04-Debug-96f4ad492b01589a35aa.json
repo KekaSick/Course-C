@@ -2,7 +2,7 @@
 	"artifacts" : 
 	[
 		{
-			"path" : "task02"
+			"path" : "task04"
 		}
 	],
 	"backtrace" : 1,
@@ -24,7 +24,7 @@
 			{
 				"command" : 0,
 				"file" : 0,
-				"line" : 16,
+				"line" : 19,
 				"parent" : 0
 			}
 		]
@@ -35,7 +35,7 @@
 			"compileCommandFragments" : 
 			[
 				{
-					"fragment" : "-g -O0 -Wall -std=gnu++20 -arch x86_64 -isysroot /Applications/Xcode.app/Contents/Developer/Platforms/MacOSX.platform/Developer/SDKs/MacOSX12.3.sdk -mmacosx-version-min=12.2"
+					"fragment" : "-g -O0 -Wall -std=gnu++20 -arch arm64 -isysroot /Library/Developer/CommandLineTools/SDKs/MacOSX14.0.sdk"
 				}
 			],
 			"language" : "CXX",
@@ -53,7 +53,7 @@
 			]
 		}
 	],
-	"id" : "task02::@6890427a1f51a3e7e1df",
+	"id" : "task04::@6890427a1f51a3e7e1df",
 	"link" : 
 	{
 		"commandFragments" : 
@@ -69,8 +69,8 @@
 		],
 		"language" : "CXX"
 	},
-	"name" : "task02",
-	"nameOnDisk" : "task02",
+	"name" : "task04",
+	"nameOnDisk" : "task04",
 	"paths" : 
 	{
 		"build" : ".",
@@ -91,7 +91,7 @@
 		{
 			"backtrace" : 1,
 			"compileGroupIndex" : 0,
-			"path" : "task02/main.cpp",
+			"path" : "task04/main.cpp",
 			"sourceGroupIndex" : 0
 		}
 	],
